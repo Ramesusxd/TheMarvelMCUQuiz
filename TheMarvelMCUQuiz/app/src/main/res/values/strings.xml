@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">The Marvel: MCU Quiz</string>
+    <string name="question1">1. In Avengers 2, Jarvis becomes what hero?</string>
+    <string name="Q1answer">Sentry</string>
+    <string name="Q1answer2">Vision</string>
+    <string name="Q1answer3">Ultron</string>
+    <string name="Q1answer4">Magnus</string>
+    <string name="question2">2. What is the name of the hammer of Thor?</string>
+    <string name="hint">Name of hammer</string>
+    <string name="question3">3. What is the name of the armor tony used to fight the hulk</string>
+    <string name="hint2">Name of Armor</string>
+    <string name="question4">4. Who was the Black Panther before T"'"Challa became king?</string>
+    <string name="Q4answer1">M"'"baku</string>
+    <string name="Q4answer2">N"'"jobu</string>
+    <string name="Q4answer3">T"'"Chaka</string>
+    <string name="Q4answer4">Okoya</string>
+    <string name="question5">5. Magneto is not in the MCU but who are his two Children that are?</string>
+    <string name="hint3">Name of kid 1</string>
+    <string name="hint4">Name of kid 2</string>
+    <string name="question6">6. The Tesseract contained which Infinity Gem</string>
+    <string name="Q6answer1">Soul stone</string>
+    <string name="Q6answer2">Mind stone</string>
+    <string name="Q6answer3">Space stone</string>
+    <string name="Q6answer4">Power stone</string>
+    <string name="question7">7. Which of these character(s) is not an Avenger in the MCU(movies)?</string>
+    <string name="Q7answer1">Clint Barton</string>
+    <string name="Q7answer2">Samuel Wilson</string>
+    <string name="Q7answer3">Wade Wilson</string>
+    <string name="Q7answer4">Carol Danvers</string>
+    <string name="question8">8. Who is the villain in the Pic above?</string>
+    <string name="Q8answer1">The Punisher</string>
+    <string name="Q8answer2">Ravager</string>
+    <string name="Q8answer3">Klaw</string>
+    <string name="Q8answer4">Crossbones</string>
+    <string name="question9">9. In Captain America:Civil War, Spider-Man takes down who starwars style?</string>
+    <string name="Q9answer1">Ant-man</string>
+    <string name="Q9answer2">Black Panther</string>
+    <string name="Q9answer3">Bucky</string>
+    <string name="Q9answer4">Captain America</string>
+    <string name="question10">10. Who is the director of S.H.I.E.L.D.</string>
+    <string name="hint5">Name of Director</string>
+    <string name="submit">Submit answers</string>
+    <string name="rights">All images and Names and credits goes to marvel this is a fan made quiz!</string>
+
+</resources>
