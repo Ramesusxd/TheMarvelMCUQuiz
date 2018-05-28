@@ -6,6 +6,7 @@
         <item name="colorPrimary">#B71C1C</item>
         <item name="colorPrimaryDark">#C62828</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">#B71C1C</item>
     </style>
 
 </resources>
