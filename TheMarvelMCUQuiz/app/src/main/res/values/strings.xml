@@ -27,12 +27,12 @@
     <string name="Q7answer2">Samuel Wilson</string>
     <string name="Q7answer3">Wade Wilson</string>
     <string name="Q7answer4">Carol Danvers</string>
-    <string name="question8">8. Who is the villain in the Pic above?</string>
+    <string name="question8">8. Who is the villain in the Pic above? and who is his enemy?</string>
     <string name="Q8answer1">The Punisher</string>
-    <string name="Q8answer2">Ravager</string>
+    <string name="Q8answer2">Captain America</string>
     <string name="Q8answer3">Klaw</string>
     <string name="Q8answer4">Crossbones</string>
-    <string name="question9">9. In Captain America:Civil War, Spider-Man takes down who starwars style?</string>
+    <string name="question9">9. In Captain America:Civil War, which 3 heroes fought on the same side?</string>
     <string name="Q9answer1">Ant-man</string>
     <string name="Q9answer2">Black Panther</string>
     <string name="Q9answer3">Bucky</string>
