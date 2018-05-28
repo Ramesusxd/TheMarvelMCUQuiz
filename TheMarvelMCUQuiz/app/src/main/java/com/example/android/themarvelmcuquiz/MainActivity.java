@@ -18,11 +18,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitAnswers(View view)
-    /**
-     * question 1. answer is vision
-     */
+
     {
         int score = 0;
+
+
+        /**
+         * question 1. answer is vision
+         */
 
         RadioButton sentryRadioButton = (RadioButton) findViewById(R.id.Jarvis_answer_1);
         boolean selectSentry = sentryRadioButton.isChecked();
@@ -150,26 +153,17 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox hawkEye = (CheckBox) findViewById(R.id.hawk_eye);
         boolean selectHawkEye = hawkEye.isChecked();
-        if (selectHawkEye) {
-            score = score;
-        }
 
         CheckBox falCon = (CheckBox) findViewById(R.id.fal_con);
         boolean selectFalcon = falCon.isChecked();
-        if (selectFalcon) {
-            score = score;
-        }
 
         CheckBox deadPool = (CheckBox) findViewById(R.id.dead_pool);
         boolean selectDeadPool = deadPool.isChecked();
-        if (selectDeadPool) {
-            score = score;
-        }
-
 
         CheckBox captianMarvel = (CheckBox) findViewById(R.id.captain_marvel);
         boolean selectCaptianM = captianMarvel.isChecked();
-        if (selectCaptianM && selectDeadPool) {
+
+        if (selectCaptianM && selectDeadPool && !selectHawkEye && !selectFalcon) {
             score = score + 1;
         }
 
@@ -179,53 +173,35 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox thePunisher = (CheckBox) findViewById(R.id.the_punisher);
         boolean selectThePunisher = thePunisher.isChecked();
-        if (selectThePunisher) {
-            score = score;
-        }
 
-        CheckBox theRavager = (CheckBox) findViewById(R.id.the_ravager);
-        boolean selectRavager = theRavager.isChecked();
-        if (selectRavager) {
-            score = score;
-        }
+        CheckBox capAmerica = (CheckBox) findViewById(R.id.free_dom);
+        boolean selectCap = capAmerica.isChecked();
 
         CheckBox profKlaw = (CheckBox) findViewById(R.id.proff_klaw);
         boolean selectProfKlaw = profKlaw.isChecked();
-        if (selectProfKlaw) {
-            score = score;
-        }
 
         CheckBox crossBones = (CheckBox) findViewById(R.id.cross_bones);
         boolean selectCrossBones = crossBones.isChecked();
-        if (selectCrossBones && selectRavager) {
-            score = score + 1;
-        }
 
+        if (selectCap && selectCrossBones && !selectProfKlaw && !selectThePunisher) {
+            score = score +1;
+        }
         /**
          * answer for question 9 answer is antman, bucky, and captain america
          */
 
         CheckBox antMan = (CheckBox) findViewById(R.id.ant_man);
         boolean selectAntMan = antMan.isChecked();
-        if (selectAntMan) {
-            score = score;
-        }
 
         CheckBox blackPanther = (CheckBox) findViewById(R.id.Black_panther);
         boolean selectBlackPanther = blackPanther.isChecked();
-        if (selectBlackPanther) {
-            score = score;
-        }
 
         CheckBox winterSoldier = (CheckBox) findViewById(R.id.winter_soldier);
         boolean selectWinterSoldier = winterSoldier.isChecked();
-        if (selectWinterSoldier) {
-            score = score;
-        }
 
         CheckBox captainAmerica = (CheckBox) findViewById(R.id.captain_america);
         boolean selectCaptainAmerica = captainAmerica.isChecked();
-        if (selectCaptainAmerica && selectAntMan && selectWinterSoldier) {
+        if (selectCaptainAmerica && selectAntMan && selectWinterSoldier && !selectBlackPanther) {
             score = score + 1;
         }
 
@@ -293,7 +269,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
-
 
 
 
