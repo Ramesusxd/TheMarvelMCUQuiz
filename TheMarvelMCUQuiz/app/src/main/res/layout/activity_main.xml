@@ -409,7 +409,8 @@
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:onClick="submitAnswers"
-            android:text="@string/submit" />
+            android:text="@string/submit"
+            android:textColor="#ffffff"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -421,3 +422,4 @@
     </LinearLayout>
 
 </ScrollView>
+
