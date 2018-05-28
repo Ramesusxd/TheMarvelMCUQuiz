@@ -163,19 +163,18 @@ public class MainActivity extends AppCompatActivity {
         CheckBox deadPool = (CheckBox) findViewById(R.id.dead_pool);
         boolean selectDeadPool = deadPool.isChecked();
         if (selectDeadPool) {
-            score = score + 1;
-        }
-
-        //double check with mentor to see if there is away to code 2 answers with checkbok
-
-        CheckBox captianMarvel = (CheckBox) findViewById(R.id.captain_marvel);
-        boolean selectCaptianM = captianMarvel.isChecked();
-        if (selectCaptianM) {
             score = score;
         }
 
+
+        CheckBox captianMarvel = (CheckBox) findViewById(R.id.captain_marvel);
+        boolean selectCaptianM = captianMarvel.isChecked();
+        if (selectCaptianM && selectDeadPool) {
+            score = score + 1;
+        }
+
         /**
-         * question 8 answer is crossbones
+         * question 8 answer is crossbones and captain america
          */
 
         CheckBox thePunisher = (CheckBox) findViewById(R.id.the_punisher);
@@ -198,18 +197,18 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox crossBones = (CheckBox) findViewById(R.id.cross_bones);
         boolean selectCrossBones = crossBones.isChecked();
-        if (selectCrossBones) {
+        if (selectCrossBones && selectRavager) {
             score = score + 1;
         }
 
         /**
-         * answer for question 9 answer is antman
+         * answer for question 9 answer is antman, bucky, and captain america
          */
 
         CheckBox antMan = (CheckBox) findViewById(R.id.ant_man);
         boolean selectAntMan = antMan.isChecked();
         if (selectAntMan) {
-            score = score + 1;
+            score = score;
         }
 
         CheckBox blackPanther = (CheckBox) findViewById(R.id.Black_panther);
@@ -226,8 +225,8 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox captainAmerica = (CheckBox) findViewById(R.id.captain_america);
         boolean selectCaptainAmerica = captainAmerica.isChecked();
-        if (selectCaptainAmerica) {
-            score = score;
+        if (selectCaptainAmerica && selectAntMan && selectWinterSoldier) {
+            score = score + 1;
         }
 
         /**
@@ -247,45 +246,45 @@ public class MainActivity extends AppCompatActivity {
 
         if (score == 5) {
             //displays toast perfect score
-            Toast.makeText(this, "5 correct half of them right keep it up", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "5/10 correct half of them right keep it up", Toast.LENGTH_LONG).show();
         } else if (score == 4) {
             //displays 4/5 score
-            Toast.makeText(this, "Almost you got 4/5 Keep watching the movies!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Almost you got 4/10 Keep watching the movies!", Toast.LENGTH_LONG).show();
 
         } else if (score == 3) {
             //displays 3/5 score
-            Toast.makeText(this, "3/5 not bad all the movie are free to watch on netflix", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "3/10 not bad all the movie are free to watch on netflix", Toast.LENGTH_LONG).show();
 
         } else if (score == 2) {
             //display 2/5 score
-            Toast.makeText(this, "come on man! 2/5.. I understand if you needed refills", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "come on man! 2/10.. I understand if you needed refills", Toast.LENGTH_LONG).show();
 
         } else if (score == 1) {
             //display 1/5 score
-            Toast.makeText(this, "1/5 its ok you must had needed your rest!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "1/10 its ok you must had needed your rest!", Toast.LENGTH_LONG).show();
         } else if (score == 0) {
             //display 0/5
-            Toast.makeText(this, "0/5 I'm so so sorry!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "0/10 I'm so so sorry!", Toast.LENGTH_LONG).show();
 
         } else if (score == 6) {
             //display 6 correct
-            Toast.makeText(this, "6 questions correct! Are you stan lee and Jack Kirby was there with you??", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "6/10 questions correct! Are you stan lee and Jack Kirby was there with you??", Toast.LENGTH_LONG).show();
 
         } else if (score == 7) {
             // display correct for 7
-            Toast.makeText(this, "7 correct your smart ok! your reed richards then or tony stark! great job", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "7/10 correct your smart ok! your reed richards then or tony stark! great job", Toast.LENGTH_LONG).show();
 
         } else if (score == 8) {
             //display 8 correct
-            Toast.makeText(this, "8 correct Moongirl would approve of ur smarts", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "8/10 correct Moongirl would approve of ur smarts", Toast.LENGTH_LONG).show();
 
         } else if (score == 9) {
             //display 9 correct
-            Toast.makeText(this, "9 correct! Dr.Doom must be helping you.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "9/10 correct! Dr.Doom must be helping you.", Toast.LENGTH_LONG).show();
 
         } else if (score == 10) {
             //display 10 correct
-            Toast.makeText(this, "Prefect score are you Stan Lee? 10 correct", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Prefect score are you Stan Lee? 10/10 correct", Toast.LENGTH_LONG).show();
 
         }
 
@@ -294,6 +293,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+
 
 
 
